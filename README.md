@@ -31,3 +31,15 @@ This project implements a **Genetic Algorithm (GA)** to solve the **3D Traveling
 Install dependencies using:
 ```bash
 pip install numpy
+```
+
+## How to Run
+
+1. **Clone the repository**  
+   Open your terminal and clone the repository using the following command:  
+   ```bash
+   git clone https://github.com/<your-username>/3D-TSP-GA.git
+   cd 3D-TSP-GA
+   ```
+2. 
+
