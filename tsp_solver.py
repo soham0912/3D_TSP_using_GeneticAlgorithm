@@ -168,7 +168,7 @@ def main():
     inp_file = "./input.txt"
     out_file = "./output.txt"
     num_cities, ls = r_inp(inp_file)
-    best_path, best_distance = genetic_algo(ls, generations=800, mutation_rate=0.01)
+    best_path, best_distance = genetic_algo(ls, generations=4000, mutation_rate=0.01)
     write_output(out_file, best_distance, best_path, ls)
 
 if __name__ == '__main__':
