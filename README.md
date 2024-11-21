@@ -42,5 +42,5 @@ pip install numpy
    cd 3D_TSP_using_GeneticAlgorithm
    ```
 2. **Prepare the input file**
-   Ensure that your input file (`input.txt`) is created and formatted correctly (see [Input Format] (#input-format))
+   Ensure that your input file (`input.txt`) is created and formatted correctly (see [Input Format](#input-format))
 
