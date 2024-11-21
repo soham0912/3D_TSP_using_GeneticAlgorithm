@@ -10,8 +10,6 @@ This project implements a **Genetic Algorithm (GA)** to solve the **3D Traveling
 - [How to Run](#how-to-run)
 - [Input Format](#input-format)
 - [Output Format](#output-format)
-- [Key Concepts](#key-concepts)
-- [License](#license)
 
 ---
 
@@ -43,4 +41,44 @@ pip install numpy
    ```
 2. **Prepare the input file**
    Ensure that your input file (`input.txt`) is created and formatted correctly (see [Input Format](#input-format))
+
+3. **Run the program**
+   ```bash
+   python3 tsp_solver.py
+   ```
+4. **The results will be written to [Output Format](#output-format)**
+
+## Input Format
+
+The input should be a text file (`input.txt`) formatted as:
+- The first line contains the number of cities, `N`.
+- The next N lines list the 3D coordinates of each city (x, y, z) as space-separated integers.
+```bash
+7
+199 173 30
+120 199 34
+144 39 130
+137 199 93
+153 196 97
+175 53 76
+173 101 186
+```
+
+## Output Format
+
+The output is written to a file (`output.txt`) in the following format:
+- The first line contains the total distance of the best path, rounded to three decimal places.
+- Each subsequent line contains the 3D coordinates of the cities in the order they are visited.
+```bash
+576.125
+120 199 34
+199 173 30
+175 53 76
+144 39 130
+173 101 186
+153 196 97
+137 199 93
+120 199 34
+```
+
 
