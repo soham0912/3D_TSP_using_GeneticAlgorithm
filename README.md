@@ -38,8 +38,9 @@ pip install numpy
 1. **Clone the repository**  
    Open your terminal and clone the repository using the following command:  
    ```bash
-   git clone https://github.com/<your-username>/3D-TSP-GA.git
-   cd 3D-TSP-GA
+   git clone https://github.com/soham0912/3D_TSP_using_GeneticAlgorithm.git
+   cd 3D_TSP_using_GeneticAlgorithm
    ```
-2. 
+2. **Prepare the input file**
+   Ensure that your input file (`input.txt`) is created and formatted correctly (see [Input Format] (#input-format))
 
